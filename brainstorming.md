@@ -34,5 +34,5 @@ Evaluating App Ideas:
 
 Final Decision
 -
-Task / Calendar Tracker - Singly
+Task / Calendar Tracker - Finity
 
