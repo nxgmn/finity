@@ -111,3 +111,14 @@ Home Screen: shows your one or more (user-specified) amount of tasks to focus on
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+## Sprints
+
+Sprint 1: Plan app details, create readme.
+ - https://giphy.com/gifs/jocMN4m4E3VC1gB8MM
+
+Sprint 2: Create home screen, tab bar navigation, and create task screen. Also, a launch screen and pick an app icon.
+
+Sprint 3: Create full to-to list and navigation, individual task screens, edit screen, and delete function.
+
+Sprint 4: Create calendar, daily task screens, and home screen settings.
