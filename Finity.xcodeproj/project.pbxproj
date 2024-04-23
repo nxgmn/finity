@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		411F55942BCE4A1600AB7B56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F55932BCE4A1600AB7B56 /* AppDelegate.swift */; };
 		411F55962BCE4A1600AB7B56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F55952BCE4A1600AB7B56 /* SceneDelegate.swift */; };
-		411F55982BCE4A1600AB7B56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F55972BCE4A1600AB7B56 /* ViewController.swift */; };
+		411F55982BCE4A1600AB7B56 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F55972BCE4A1600AB7B56 /* HomeController.swift */; };
 		411F559B2BCE4A1600AB7B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411F55992BCE4A1600AB7B56 /* Main.storyboard */; };
 		411F559D2BCE4A1800AB7B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411F559C2BCE4A1800AB7B56 /* Assets.xcassets */; };
 		411F55A02BCE4A1800AB7B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411F559E2BCE4A1800AB7B56 /* LaunchScreen.storyboard */; };
+		411F55A82BD0053200AB7B56 /* CreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F55A72BD0053200AB7B56 /* CreateController.swift */; };
+		411F55AA2BD006CE00AB7B56 /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F55A92BD006CE00AB7B56 /* CalendarController.swift */; };
+		411F55AE2BD00F9F00AB7B56 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F55AD2BD00F9F00AB7B56 /* TaskCell.swift */; };
+		411F55B02BD072AA00AB7B56 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F55AF2BD072AA00AB7B56 /* SettingsViewController.swift */; };
+		411F55B22BD1BD1800AB7B56 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F55B12BD1BD1800AB7B56 /* Task.swift */; };
+		411F55B42BD4946000AB7B56 /* DailyTasksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F55B32BD4946000AB7B56 /* DailyTasksController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		411F55902BCE4A1600AB7B56 /* Finity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		411F55932BCE4A1600AB7B56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		411F55952BCE4A1600AB7B56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		411F55972BCE4A1600AB7B56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		411F55972BCE4A1600AB7B56 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		411F559A2BCE4A1600AB7B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		411F559C2BCE4A1800AB7B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		411F559F2BCE4A1800AB7B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		411F55A12BCE4A1800AB7B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411F55A72BD0053200AB7B56 /* CreateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateController.swift; sourceTree = "<group>"; };
+		411F55A92BD006CE00AB7B56 /* CalendarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
+		411F55AD2BD00F9F00AB7B56 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		411F55AF2BD072AA00AB7B56 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		411F55B12BD1BD1800AB7B56 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		411F55B32BD4946000AB7B56 /* DailyTasksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTasksController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +70,14 @@
 			children = (
 				411F55932BCE4A1600AB7B56 /* AppDelegate.swift */,
 				411F55952BCE4A1600AB7B56 /* SceneDelegate.swift */,
-				411F55972BCE4A1600AB7B56 /* ViewController.swift */,
+				411F55972BCE4A1600AB7B56 /* HomeController.swift */,
 				411F55992BCE4A1600AB7B56 /* Main.storyboard */,
+				411F55B32BD4946000AB7B56 /* DailyTasksController.swift */,
+				411F55AF2BD072AA00AB7B56 /* SettingsViewController.swift */,
+				411F55AD2BD00F9F00AB7B56 /* TaskCell.swift */,
+				411F55A92BD006CE00AB7B56 /* CalendarController.swift */,
+				411F55A72BD0053200AB7B56 /* CreateController.swift */,
+				411F55B12BD1BD1800AB7B56 /* Task.swift */,
 				411F559C2BCE4A1800AB7B56 /* Assets.xcassets */,
 				411F559E2BCE4A1800AB7B56 /* LaunchScreen.storyboard */,
 				411F55A12BCE4A1800AB7B56 /* Info.plist */,
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				411F55982BCE4A1600AB7B56 /* ViewController.swift in Sources */,
+				411F55982BCE4A1600AB7B56 /* HomeController.swift in Sources */,
+				411F55A82BD0053200AB7B56 /* CreateController.swift in Sources */,
+				411F55AA2BD006CE00AB7B56 /* CalendarController.swift in Sources */,
 				411F55942BCE4A1600AB7B56 /* AppDelegate.swift in Sources */,
+				411F55AE2BD00F9F00AB7B56 /* TaskCell.swift in Sources */,
 				411F55962BCE4A1600AB7B56 /* SceneDelegate.swift in Sources */,
+				411F55B22BD1BD1800AB7B56 /* Task.swift in Sources */,
+				411F55B42BD4946000AB7B56 /* DailyTasksController.swift in Sources */,
+				411F55B02BD072AA00AB7B56 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
