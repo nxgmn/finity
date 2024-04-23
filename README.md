@@ -119,6 +119,11 @@ Sprint 1: Plan app details, create readme.
 
 Sprint 2: Create home screen, tab bar navigation, and create task screen. Also, a launch screen and pick an app icon.
 
+ - Was able to create a home screen and navigation through most of the planned screens. Added semi-functionaltiy to create and
+   view tasks.
+
+ - https://giphy.com/gifs/kEv1PZ5uFamnwKuhGV
+
 Sprint 3: Create full to-to list and navigation, individual task screens, edit screen, and delete function.
 
 Sprint 4: Create calendar, daily task screens, and home screen settings.
