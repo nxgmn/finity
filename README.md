@@ -126,4 +126,8 @@ Sprint 2: Create home screen, tab bar navigation, and create task screen. Also, 
 
 Sprint 3: Create full to-to list and navigation, individual task screens, edit screen, and delete function.
 
+ - I tried to finish implementing my home screen table view, but wasn't able to make it display the tasks.
+
+ - https://giphy.com/gifs/ZBvoerkB0GpLZMyglB
+
 Sprint 4: Create calendar, daily task screens, and home screen settings.
